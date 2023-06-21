@@ -60,3 +60,29 @@ body{
     font-size:38px;
     color: var(--branco-principal);
 }
+.dispositivo__lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+}
+.dispositivo{
+    text-align: center;
+}
+.lista_item{
+    font-size: 30px;
+} 
+.lista_link a{
+    text-decoration: none;
+    color:var(--branco-principal);
+    margin-left: 1em;
+}
+.rodape{
+    text-align: center;
+}
+.rodape li{
+    display: inline-block;
+}
+p.texro_rodape{
+    padding: 10px;
+}
